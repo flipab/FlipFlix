@@ -55,41 +55,7 @@
       "genero": "Sci-fi",
       "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
       "ano": "2021"
-    },
-    {
-      "id": 9,
-      "nome": "Stowaway",
-      "genero": "Sci-fi",
-      "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
-      "ano": "2021"
-    },
-    {
-      "id": 10,
-      "nome": "Stowaway",
-      "genero": "Sci-fi",
-      "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
-      "ano": "2021"
-    },
-    {
-      "id": 11,
-      "nome": "Stowaway",
-      "genero": "Sci-fi",
-      "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
-      "ano": "2021"
-    },
-    {
-      "id": 12,
-      "nome": "Stowaway",
-      "genero": "Sci-fi",
-      "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
-      "ano": "2021"
-    },
-    {
-      "nome": "teste",
-      "imagem": "https://cdn.statically.io/img/www.dulu.to/wp-content/uploads/2021/11/ohGz4HDYGTite1GmRhRuBMVAn03-200x300.jpg.webp?quality=100&f=auto",
-      "genero": "teste teste",
-      "ano": "2121",
-      "id": 13
     }
+
   ]
 }
