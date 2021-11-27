@@ -27,7 +27,7 @@ export class MovieDetailComponent implements OnInit, OnDestroy {
       .movieFromHttp(this.id)
       .subscribe(movie => {
         this.movie = movie;
-        this.navbarService.title.next(movie.name);
+        this.navbarService.title.next(movie.nome);
       });
   }
 

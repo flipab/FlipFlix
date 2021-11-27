@@ -57,6 +57,6 @@ export class MovieListComponent implements OnInit {
     this.loadingMovies = new Array(10).fill(0).map((n, index) => index);
 
     this.movies$ = this.movieService.getMoviesFromHttp();
-    this.navbarService.title.next('MovieNight');
+    this.navbarService.title.next('Flip Flix');
   }
 }
