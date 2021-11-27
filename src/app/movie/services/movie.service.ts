@@ -8,7 +8,7 @@ import { Movie, movies } from '../models/movie.model';
   providedIn: 'root',
 })
 export class MovieService {
-  private ROOT_URL = '/movies';
+  private ROOT_URL = 'http://localhost:3000/movies';
 
   constructor(private http: HttpClient) {}
 
