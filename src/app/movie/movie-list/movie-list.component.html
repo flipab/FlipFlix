@@ -1,6 +1,6 @@
-<ul *ngIf="movies$ | async as movies; else loading" [@listAnimation]="movies">
-  <li *ngFor="let movie of movies">
-    <a [routerLink]="movie.id">
+<ul *ngIf="movies$ | async as movies; else loading" [@listAnimation]="movies" >
+  <li *ngFor="let movie of movies" >
+    <a [routerLink]="movie.id" appHighlight>
       <img [src]="movie.imagem" />
     </a>
   </li>

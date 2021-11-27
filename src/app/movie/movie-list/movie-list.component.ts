@@ -47,6 +47,7 @@ import { MovieService } from './../services/movie.service';
 export class MovieListComponent implements OnInit {
   movies$: Observable<Movie[]>;
   loadingMovies: Array<Number>;
+  color = 'yellow';
 
   constructor(
     private movieService: MovieService,
