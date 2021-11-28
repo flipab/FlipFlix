@@ -1,8 +1,8 @@
-<form [formGroup]="movieForm" (ngSubmit)="addMovie()">
+<form [formGroup]="movieForm" (ngSubmit)="addMovie()" >
   <input type="text" placeholder="Nome" formControlName="nome" />
   <input type="text" placeholder="Imagem URL" formControlName="imagem" />
   <input type="text" placeholder="Genero" formControlName="genero" />
   <input type="text" placeholder="Ano" formControlName="ano" />
 
-  <button [disabled]="!movieForm.valid" type="submit">Add</button>
+  <button [disabled]="!movieForm.valid" type="submit" >Add</button>
 </form>

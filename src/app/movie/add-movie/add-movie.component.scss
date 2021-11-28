@@ -7,10 +7,12 @@ form {
 input {
   margin: 20px 10px;
   width: 90%;
-  border: 0px;
+  border: 10px;
+  border-radius: 10px;
+  border-color: #6A5ACD;
   font-size: 18px;
   padding: 5px;
-  box-shadow: 5px 5px 0px #e94057;
+  /* box-shadow: 5px 5px 0px #6A5ACD; */
 }
 
 button {

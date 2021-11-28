@@ -55,7 +55,13 @@
       "genero": "Sci-fi",
       "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
       "ano": "2021"
+    },
+    {
+      "nome": "akshldjbf",
+      "imagem": "https://img.yts.mx/assets/images/movies/the_last_rite_2021/medium-cover.jpg",
+      "genero": "teste ",
+      "ano": "1900",
+      "id": 9
     }
-
   ]
 }
