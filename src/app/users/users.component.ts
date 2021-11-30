@@ -24,7 +24,8 @@ export class UsersComponent implements OnInit {
                 item.id,
                 item.login,
                 item.nome,
-                item.password,
+                item.senha,
+                item.administrador,
               )
             }
           )

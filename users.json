@@ -4,13 +4,17 @@
       "id": 1,
       "login": "felipe",
       "nome": "felipe",
-      "password": "123"
+      "senha": "123",
+      "administrador": false
+
     },
     {
       "id": 2,
       "login": "admin",
       "nome": "administrador",
-      "password": "admin"
+      "senha": "admin",
+      "administrador": true
+
     }
   ]
 }
