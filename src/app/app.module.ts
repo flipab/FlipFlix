@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HighlightDirective } from './highlight.directive';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HighlightDirective],
+  declarations: [AppComponent, NavbarComponent, HighlightDirective, UsersComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
