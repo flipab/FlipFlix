@@ -23,7 +23,6 @@ export class UsersComponent implements OnInit {
               return new Users(
                 item.id,
                 item.login,
-                item.nome,
                 item.senha,
                 item.administrador,
               )

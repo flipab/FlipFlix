@@ -9,6 +9,9 @@ import { MovieService } from './../services/movie.service';
   templateUrl: './add-movie.component.html',
   styleUrls: ['./add-movie.component.scss'],
 })
+
+//--------------tem que estar autenticado ----------
+
 export class AddMovieComponent implements OnInit {
   movieForm = new FormGroup({
     nome: new FormControl('', [Validators.required]),

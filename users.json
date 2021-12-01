@@ -3,7 +3,6 @@
     {
       "id": 1,
       "login": "felipe",
-      "nome": "felipe",
       "senha": "123",
       "administrador": false
 
@@ -11,7 +10,6 @@
     {
       "id": 2,
       "login": "admin",
-      "nome": "administrador",
       "senha": "admin",
       "administrador": true
 
