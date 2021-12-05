@@ -13,7 +13,11 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
-		"mongodb.mongodb-vscode" 
+		"mongodb.mongodb-vscode",
+		"angular.ng-template",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"ms-vscode.vscode-typescript-tslint-plugin",
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
