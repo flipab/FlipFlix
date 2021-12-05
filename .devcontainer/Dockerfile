@@ -14,15 +14,18 @@ RUN . /etc/os-release \
     fi
 
 # [Optional] Uncomment this section to install additional OS packages.
-# RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-#     && apt-get -y install --no-install-recommends <your-package-list-here>
-
+ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+     && apt-get -y install --no-install-recommends vim git-core bash-completion && \
+     echo "Pacotes SO instalados com sucesso!"\
 # [Optional] Uncomment if you want to install an additional version of node using nvm
 # ARG EXTRA_NODE_VERSION=10
 # RUN su node -c "source /usr/local/share/nvm/nvm.sh && nvm install ${EXTRA_NODE_VERSION}"
-
 # [Optional] Uncomment if you want to install more global node modules
- RUN su node -c "npm install -g @angular/cli"
+ RUN su node -c "npm install -g @angular/cli" && \
+     su node -c "npm install -g json-server" && \
+#     su node -c "json-server --watch users.json -p 4000" && \
+#     su node -c "npm run api" && \
+     echo "Pacotes NPM instalados com sucesso!"
 
 
 
