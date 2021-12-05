@@ -9,14 +9,17 @@ export class HighlightDirective {
 
   @HostListener('mouseenter') onMouseEnter() {
     this.highlight('#6A5ACD');
+
   }
 
   @HostListener('mouseleave') onMouseLeave() {
     this.highlight('');
+
   }
 
   private highlight(color: string) {
     this.el.nativeElement.style.backgroundColor = color;
+
   }
 
 }
