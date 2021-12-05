@@ -1,0 +1,15 @@
+  <form [formGroup]="formGroup" (ngSubmit)="login()" >
+    <div class="p-field p-grid">
+      <label for="email" class="p-col-fixed" style="width:100px">Email</label>
+      <div class="p-col">
+          <input id="email" formControlName="email" type="text" pInputText>
+      </div>
+    </div>
+    <div class="p-field p-grid">
+      <label for="password" class="p-col-fixed" style="width:100px">Senha</label>
+      <div class="p-col">
+          <input id="password" formControlName="password" type="text" pInputText>
+      </div>
+      <button pButton type="submit" label="Submit"></button>
+    </div>
+  </form>

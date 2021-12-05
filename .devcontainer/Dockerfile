@@ -23,8 +23,6 @@ RUN . /etc/os-release \
 # [Optional] Uncomment if you want to install more global node modules
  RUN su node -c "npm install -g @angular/cli" && \
      su node -c "npm install -g json-server" && \
-#     su node -c "json-server --watch users.json -p 4000" && \
-#     su node -c "npm run api" && \
      echo "Pacotes NPM instalados com sucesso!"
 
 

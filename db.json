@@ -55,6 +55,27 @@
       "genero": "Sci-fi",
       "imagem": "https://img.yts.mx/assets/images/movies/stowaway_2021/medium-cover.jpg",
       "ano": "2021"
+    },
+    {
+      "nome": "filme novo",
+      "imagem": "https://img.yts.mx/assets/images/movies/the_last_rite_2021/medium-cover.jpg",
+      "genero": "terror",
+      "ano": "2020",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "email": "felipe@gmail.com",
+      "password": "$2a$10$NnGlLSBxh8aS9FbSXo7T4On13hD..pmxAYZheCdQIKdPNDkNbxlgO",
+      "id": 1,
+      "administrador": false
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$bwmgBlb/g2RsUDWPDeezi..3vDiz7RwmVTCWYCrbgWI8RLGBmiORm",
+      "id": 2,
+      "administrador": true
     }
   ]
 }

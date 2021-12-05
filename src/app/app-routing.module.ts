@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
     path: 'movies',
     loadChildren: () => import('./movie/movie.module').then(m => m.MovieModule),
   },
+  {
+    path: 'login',
+    component: LoginComponent
+  }
 
 ];
 

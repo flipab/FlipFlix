@@ -7,14 +7,25 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HighlightDirective } from './highlight.directive';
 import { UsersComponent } from './users/users.component';
+import { LoginComponent } from './components/login/login.component';
+import { InputTextModule } from 'primeng/inputtext';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { ButtonModule } from 'primeng/button';
+
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HighlightDirective, UsersComponent],
+  declarations: [AppComponent, NavbarComponent, HighlightDirective, UsersComponent, LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    InputTextModule,
+    ButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
